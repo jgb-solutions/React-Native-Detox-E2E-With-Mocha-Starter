@@ -1,5 +1,7 @@
 # React Native Detox E2E With Mocha Starter
 
+![Preview of the app](preview.png)
+
 This is a React Native init starter app set up with Detox and Mocha for end-to-end testing.
 
 It has a single single screen that displays a list of posts fetched from `https://jsonplaceholder.typicode.com/posts`. I use the `FlatList` component to display each post's title and body text.
