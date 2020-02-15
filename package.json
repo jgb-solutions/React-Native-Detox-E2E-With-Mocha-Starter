@@ -35,7 +35,7 @@
         "binaryPath": "ios/build/Build/Products/Debug-iphonesimulator/elon.app",
         "build": "xcodebuild -workspace ios/elon.xcworkspace -scheme elon -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build",
         "type": "ios.simulator",
-        "name": "iPhone X"
+        "name": "iPhone 11"
       }
     }
   }
