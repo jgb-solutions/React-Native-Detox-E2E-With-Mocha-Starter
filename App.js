@@ -49,7 +49,7 @@ export default function App() {
         contentContainerStyle={styles.postListContainer}
         data={posts}
         renderItem={({item}) => <SinglePost data={item} />}
-        keyExtractor={item => item.id}
+        keyExtractor={item => `${item.id}`}
       />
     </View>
   );
